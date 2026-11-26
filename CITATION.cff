@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this TWM Research Series software release and the benchmark artifact you used."
+title: "INDUCT — Structural Induction Pilot"
+type: software
+authors:
+  - name: "skatzrskx55q"
+version: "0.1.0-research"
+repository-code: "https://github.com/skatzrskx55q/twm-induct-structural"
+url: "https://github.com/skatzrskx55q/twm-induct-structural/releases/tag/v0.1.0-research"
+license: MIT

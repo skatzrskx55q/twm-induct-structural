@@ -1,0 +1,180 @@
+{
+  "project": "TWM INDUCT",
+  "date": "2026-11-04",
+  "stage": "structural pilot, unpromoted",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "model_parameters_new_node": 1515,
+  "node_splits_evaluated": [
+    "dev_L2",
+    "dev_L3"
+  ],
+  "sealed_test_evaluated": false,
+  "horizons": {
+    "dev_L2": {
+      "conditioned": {
+        "1": 147,
+        "4": 87,
+        "8": 76,
+        "16": 76
+      },
+      "static": {
+        "1": 139,
+        "4": 81,
+        "8": 73,
+        "16": 65
+      },
+      "ablate": {
+        "1": 133,
+        "4": 73,
+        "8": 67,
+        "16": 63
+      },
+      "random": {
+        "1": 119,
+        "4": 69,
+        "8": 63,
+        "16": 63
+      },
+      "E36": {
+        "1": 181,
+        "4": 114,
+        "8": 101,
+        "16": 84
+      }
+    },
+    "dev_L3": {
+      "conditioned": {
+        "1": 161,
+        "4": 126,
+        "8": 113,
+        "16": 102
+      },
+      "static": {
+        "1": 147,
+        "4": 98,
+        "8": 86,
+        "16": 82
+      },
+      "ablate": {
+        "1": 138,
+        "4": 93,
+        "8": 88,
+        "16": 81
+      },
+      "random": {
+        "1": 110,
+        "4": 89,
+        "8": 89,
+        "16": 87
+      },
+      "E36": {
+        "1": 175,
+        "4": 133,
+        "8": 118,
+        "16": 108
+      }
+    }
+  },
+  "CART_algorithmic": {
+    "dev_L2": {
+      "1": 62,
+      "4": 49,
+      "8": 47,
+      "16": 46
+    },
+    "dev_L3": {
+      "1": 76,
+      "4": 64,
+      "8": 62,
+      "16": 57
+    }
+  },
+  "comparisons": {
+    "dev_L2": {
+      "conditioned_minus_static": {
+        "difference_percentage_points": 4.583333333333333,
+        "cluster_95_ci_pp": [
+          0.8333333333333334,
+          9.166666666666664
+        ],
+        "n_laws": 20,
+        "n_paired_world_seed": 240,
+        "favorable_laws": 4,
+        "unfavorable_laws": 0,
+        "tied_laws": 16,
+        "percentile_bootstrap": "descriptive exploratory, repeated open dev"
+      },
+      "conditioned_minus_ablate": {
+        "difference_percentage_points": 5.416666666666666,
+        "cluster_95_ci_pp": [
+          -0.8333333333333334,
+          13.333333333333334
+        ],
+        "n_laws": 20,
+        "n_paired_world_seed": 240,
+        "favorable_laws": 4,
+        "unfavorable_laws": 1,
+        "tied_laws": 15,
+        "percentile_bootstrap": "descriptive exploratory, repeated open dev"
+      },
+      "conditioned_minus_E36": {
+        "difference_percentage_points": -3.3333333333333335,
+        "cluster_95_ci_pp": [
+          -12.083333333333332,
+          6.666666666666667
+        ],
+        "n_laws": 20,
+        "n_paired_world_seed": 240,
+        "favorable_laws": 3,
+        "unfavorable_laws": 9,
+        "tied_laws": 8,
+        "percentile_bootstrap": "descriptive exploratory, repeated open dev"
+      }
+    },
+    "dev_L3": {
+      "conditioned_minus_static": {
+        "difference_percentage_points": 8.333333333333334,
+        "cluster_95_ci_pp": [
+          0.0,
+          19.166666666666668
+        ],
+        "n_laws": 20,
+        "n_paired_world_seed": 240,
+        "favorable_laws": 4,
+        "unfavorable_laws": 1,
+        "tied_laws": 15,
+        "percentile_bootstrap": "descriptive exploratory, repeated open dev"
+      },
+      "conditioned_minus_ablate": {
+        "difference_percentage_points": 8.75,
+        "cluster_95_ci_pp": [
+          -0.4166666666666666,
+          21.25
+        ],
+        "n_laws": 20,
+        "n_paired_world_seed": 240,
+        "favorable_laws": 4,
+        "unfavorable_laws": 1,
+        "tied_laws": 15,
+        "percentile_bootstrap": "descriptive exploratory, repeated open dev"
+      },
+      "conditioned_minus_E36": {
+        "difference_percentage_points": -2.5000000000000004,
+        "cluster_95_ci_pp": [
+          -8.75,
+          3.3333333333333335
+        ],
+        "n_laws": 20,
+        "n_paired_world_seed": 240,
+        "favorable_laws": 2,
+        "unfavorable_laws": 4,
+        "tied_laws": 14,
+        "percentile_bootstrap": "descriptive exploratory, repeated open dev"
+      }
+    }
+  }
+}

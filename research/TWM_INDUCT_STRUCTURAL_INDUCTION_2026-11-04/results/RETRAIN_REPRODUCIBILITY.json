@@ -1,0 +1,14 @@
+{
+  "conditioned": {
+    "mode": "conditioned",
+    "state_dict_bitwise_equal": true,
+    "checkpoint_file_sha_equal": false,
+    "tensor_count": 6
+  },
+  "static": {
+    "mode": "static",
+    "state_dict_bitwise_equal": true,
+    "checkpoint_file_sha_equal": false,
+    "tensor_count": 6
+  }
+}

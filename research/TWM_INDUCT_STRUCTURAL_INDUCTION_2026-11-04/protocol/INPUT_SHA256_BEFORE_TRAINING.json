@@ -1,0 +1,20 @@
+{
+  "code/e34_induction.py": "744ed2b74aa27066cc64ee252f9788dd3d2e757290cefb4a01e07a942d81f742",
+  "code/structural_experiment.py": "ff100f54ffc8065af5cc6abedb76e8f568d68b3bba556205de9fcbf2eee6d049",
+  "code/joint_event_pilot.py": "ecca953667e9601f2f2598bd9324632f21d0104690f09b3d96780001ed81e159",
+  "code/structural_induction.py": "76f500a5d5f0404359e5984a84301f1ffa93c9db7d26ed3c82f73e3ccdbe41e1",
+  "code/e35_neural_context.py": "04c9820a21bf308e68123e98280473f72d4b54d31cbe12b4082192341054866c",
+  "code/rollout_dev.py": "dc543e934cd75350df69d58a335678dccbed83f6b32ff26ae11c7c0227e8de3e",
+  "code/semantic_n2_experiment.py": "e60629c59f31dcdd49722f903d451c6be8f3dd02eb2ae1593bef55e676dc8a7d",
+  "code/lawbench_v0.py": "f57eb07369d321fac1913383c17593cd7c075239c69e4525adb4be821ebc43d5",
+  "code/e36_meta_ridge.py": "23bda9b91a040ff6fc0e7981330d528556033337b689d6088eaf16b011a9c610",
+  "code/e35_sequential.py": "581feaf15e8c616e87f3c55e1cfd6c070bd377645aa98d5be8024e6c7c08b3d6",
+  "reference/N2_MODEL_INPUTS.jsonl": "c158b26be176bf06b6fb635948fd15ceaa99b5360916689b5f098ba0d7bbfd92",
+  "reference/N2_PRIVATE_EPISODE_META.jsonl": "fc00f69d2a32fba1d702a18825c4dd4ccee0d4d35a9397d443a752430e843195",
+  "reference/N2_PRIVATE_LABELS.jsonl": "625986530c00f0ee913c97c700ec4656e8135398a50995e451320b5d606f06b9",
+  "reference/N2_PRIVATE_LAW_REGISTRY.json": "fa1f8951b20479086004bb84d1c073e6f63a7bf74d5b337612a357228f7d54f9",
+  "checkpoints/E36_seed17_N2_train.pt": "d672d7bbb475b9904aa7a06138b2cf0912e90fca88238877bac5d11491f6908c",
+  "checkpoints/E36_seed43_N2_train.pt": "3116fa2ea79b0f9ea310dccdc7a26bbed77d8a9444386e801029532031b30a60",
+  "checkpoints/E36_seed29_N2_train.pt": "0edd9d0ab7256842d4d9c17ca9177c3636916877d4076196d8d0079bbba11954",
+  "protocol/BEFORE_TRAINING.json": "c21fe534a71cb73692e79ecb42e1f3f3fcb1bc1463f777c7c9bf0acbefebcefb"
+}

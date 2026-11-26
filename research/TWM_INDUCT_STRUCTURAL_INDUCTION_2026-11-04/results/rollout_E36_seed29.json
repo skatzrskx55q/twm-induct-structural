@@ -1,0 +1,69 @@
+{
+  "seed": 29,
+  "mode": "E36",
+  "horizons": {
+    "dev_L2": {
+      "1": {
+        "n": 80,
+        "full": 64,
+        "edge": 77,
+        "node": 67,
+        "path": 64
+      },
+      "4": {
+        "n": 80,
+        "full": 37,
+        "edge": 55,
+        "node": 42,
+        "path": 36
+      },
+      "8": {
+        "n": 80,
+        "full": 35,
+        "edge": 43,
+        "node": 39,
+        "path": 30
+      },
+      "16": {
+        "n": 80,
+        "full": 28,
+        "edge": 43,
+        "node": 29,
+        "path": 25
+      }
+    },
+    "dev_L3": {
+      "1": {
+        "n": 80,
+        "full": 58,
+        "edge": 67,
+        "node": 67,
+        "path": 58
+      },
+      "4": {
+        "n": 80,
+        "full": 45,
+        "edge": 53,
+        "node": 51,
+        "path": 44
+      },
+      "8": {
+        "n": 80,
+        "full": 40,
+        "edge": 47,
+        "node": 43,
+        "path": 38
+      },
+      "16": {
+        "n": 80,
+        "full": 35,
+        "edge": 38,
+        "node": 42,
+        "path": 32
+      }
+    }
+  },
+  "episodes": 160,
+  "elapsed_s": 2.275,
+  "status": "HISTORICAL_OPEN_N2_ONLY"
+}

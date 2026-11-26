@@ -1,0 +1,14 @@
+{
+  "original_frozen_inputs_sha256": {
+    "N2_MODEL_INPUTS.jsonl": "c158b26be176bf06b6fb635948fd15ceaa99b5360916689b5f098ba0d7bbfd92",
+    "N2_PRIVATE_EPISODE_META.jsonl": "fc00f69d2a32fba1d702a18825c4dd4ccee0d4d35a9397d443a752430e843195",
+    "N2_PRIVATE_LABELS.jsonl": "625986530c00f0ee913c97c700ec4656e8135398a50995e451320b5d606f06b9",
+    "N2_PRIVATE_LAW_REGISTRY.json": "fa1f8951b20479086004bb84d1c073e6f63a7bf74d5b337612a357228f7d54f9"
+  },
+  "change": "post-evaluation delivery-only filtering: remove all test and sealed sections and unused ID-state rows, preserve identical train/dev_L2/dev_L3 rows and labels; no re-training or retuning",
+  "kept_splits": [
+    "dev_L2",
+    "dev_L3",
+    "train"
+  ]
+}

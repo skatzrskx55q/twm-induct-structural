@@ -1,0 +1,69 @@
+{
+  "seed": 29,
+  "mode": "ablate",
+  "horizons": {
+    "dev_L2": {
+      "1": {
+        "n": 80,
+        "full": 46,
+        "edge": 77,
+        "node": 47,
+        "path": 46
+      },
+      "4": {
+        "n": 80,
+        "full": 25,
+        "edge": 43,
+        "node": 30,
+        "path": 21
+      },
+      "8": {
+        "n": 80,
+        "full": 24,
+        "edge": 41,
+        "node": 30,
+        "path": 18
+      },
+      "16": {
+        "n": 80,
+        "full": 22,
+        "edge": 40,
+        "node": 25,
+        "path": 17
+      }
+    },
+    "dev_L3": {
+      "1": {
+        "n": 80,
+        "full": 46,
+        "edge": 67,
+        "node": 52,
+        "path": 46
+      },
+      "4": {
+        "n": 80,
+        "full": 31,
+        "edge": 43,
+        "node": 37,
+        "path": 29
+      },
+      "8": {
+        "n": 80,
+        "full": 30,
+        "edge": 38,
+        "node": 35,
+        "path": 27
+      },
+      "16": {
+        "n": 80,
+        "full": 27,
+        "edge": 32,
+        "node": 34,
+        "path": 23
+      }
+    }
+  },
+  "episodes": 160,
+  "elapsed_s": 2.129,
+  "status": "HISTORICAL_OPEN_N2_ONLY"
+}

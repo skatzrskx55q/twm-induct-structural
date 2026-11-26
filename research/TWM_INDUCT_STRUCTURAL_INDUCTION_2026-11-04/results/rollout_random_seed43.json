@@ -1,0 +1,69 @@
+{
+  "seed": 43,
+  "mode": "random",
+  "horizons": {
+    "dev_L2": {
+      "1": {
+        "n": 80,
+        "full": 39,
+        "edge": 75,
+        "node": 41,
+        "path": 39
+      },
+      "4": {
+        "n": 80,
+        "full": 23,
+        "edge": 41,
+        "node": 29,
+        "path": 15
+      },
+      "8": {
+        "n": 80,
+        "full": 21,
+        "edge": 41,
+        "node": 28,
+        "path": 14
+      },
+      "16": {
+        "n": 80,
+        "full": 21,
+        "edge": 39,
+        "node": 25,
+        "path": 13
+      }
+    },
+    "dev_L3": {
+      "1": {
+        "n": 80,
+        "full": 37,
+        "edge": 68,
+        "node": 42,
+        "path": 37
+      },
+      "4": {
+        "n": 80,
+        "full": 30,
+        "edge": 42,
+        "node": 41,
+        "path": 26
+      },
+      "8": {
+        "n": 80,
+        "full": 30,
+        "edge": 38,
+        "node": 37,
+        "path": 24
+      },
+      "16": {
+        "n": 80,
+        "full": 29,
+        "edge": 33,
+        "node": 36,
+        "path": 23
+      }
+    }
+  },
+  "episodes": 160,
+  "elapsed_s": 2.69,
+  "status": "HISTORICAL_OPEN_N2_ONLY"
+}

@@ -1,0 +1,11 @@
+TRAIN conditioned 17 {'step': 1, 'bce': 0.1706082820892334, 'elapsed_s': 0.03}
+TRAIN conditioned 17 {'step': 2, 'bce': 0.5428709387779236, 'elapsed_s': 0.04}
+TRAIN conditioned 17 {'step': 3, 'bce': 1.2124345302581787, 'elapsed_s': 0.05}
+SCORE conditioned 17 dev_L2 {'n': 80, 'full': 40, 'edge': 76, 'node': 41}
+SCORE conditioned 17 dev_L3 {'n': 80, 'full': 37, 'edge': 68, 'node': 42}
+TRAIN static 17 {'step': 1, 'bce': 0.1705598682165146, 'elapsed_s': 0.0}
+TRAIN static 17 {'step': 2, 'bce': 0.543460488319397, 'elapsed_s': 0.01}
+TRAIN static 17 {'step': 3, 'bce': 1.2133697271347046, 'elapsed_s': 0.01}
+SCORE static 17 dev_L2 {'n': 80, 'full': 40, 'edge': 76, 'node': 41}
+SCORE static 17 dev_L3 {'n': 80, 'full': 37, 'edge': 68, 'node': 42}
+DONE

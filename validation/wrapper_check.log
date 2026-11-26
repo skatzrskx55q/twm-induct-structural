@@ -1,0 +1,4 @@
+Working directory: /tmp/twm-research-m6sknvyk/research/TWM_INDUCT_STRUCTURAL_INDUCTION_2026-11-04
+Command: ['/opt/pyvenv/bin/python', '-m', 'pytest', '-q', '-p', 'no:cacheprovider', 'tests/test_structural.py']
+........                                                                 [100%]
+8 passed in 4.92s

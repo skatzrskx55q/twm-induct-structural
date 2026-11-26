@@ -1,0 +1,14 @@
+{
+  "project": "TWM INDUCT",
+  "stage_type": "unpromoted structural induction research pilot",
+  "timestamp_utc": "2026-11-04",
+  "hypothesis": "Learned conditional partitions with per-episode leaf estimates and leave-one-out support-conditioned selection improve transfer of node effects to unseen compositions compared with an equal-capacity episode-blind partition control.",
+  "control": "Same predicates, four leaves per tree, learnable parameters, optimizer, initial weights, minibatches, fixed edge predictor; only suppress support-dependent tree selection.",
+  "architecture": {"feature_dim": 30,"num_trees": 24,"tree_depth": 2,"edge": "Frozen E36 N2 checkpoint, predicted edges at query", "support_length": 8},
+  "seeds": [17,29,43], "training": {"split":"N2 train","steps":850,"batch_size":16,"learning_rate":0.002},
+  "open_diagnostics": ["N2 dev_L2","N2 dev_L3"],
+  "primary": "dev_L2 autonomous full-state exact@H16 for 3 seeds",
+  "acceptance": {"min_gain_vs_equal_control_percentage_points":10.0,"min_gain_vs_E36_percentage_points":10.0,"must_improve_at_least_two_seeds":true,"no_leak":true,"permutation_equivariance":true},
+  "strict_limits": ["Do not call this a sealed test", "Never pass law ID or registered rule expressions to runtime", "No teacher forcing after first query in rollout", "No new official E version", "No post hoc architecture change based on dev scores"],
+  "provenance": "TWM_SEMANTIC_N2_CONTINUATION_2026-10-31.zip, original N2 preregistered split"
+}

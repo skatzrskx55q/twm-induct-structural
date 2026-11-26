@@ -1,0 +1,31 @@
+TRAIN conditioned 17 {'step': 1, 'bce': 0.1706082820892334, 'elapsed_s': 0.01}
+TRAIN conditioned 17 {'step': 426, 'bce': 0.20905481278896332, 'elapsed_s': 1.82}
+TRAIN conditioned 17 {'step': 850, 'bce': 0.24602963030338287, 'elapsed_s': 3.48}
+SCORE conditioned 17 dev_L2 {'n': 80, 'full': 50, 'edge': 76, 'node': 51}
+SCORE conditioned 17 dev_L3 {'n': 80, 'full': 53, 'edge': 68, 'node': 59}
+TRAIN static 17 {'step': 1, 'bce': 0.1705598682165146, 'elapsed_s': 0.0}
+TRAIN static 17 {'step': 426, 'bce': 0.22518181800842285, 'elapsed_s': 1.24}
+TRAIN static 17 {'step': 850, 'bce': 0.2859581410884857, 'elapsed_s': 2.61}
+SCORE static 17 dev_L2 {'n': 80, 'full': 47, 'edge': 76, 'node': 48}
+SCORE static 17 dev_L3 {'n': 80, 'full': 49, 'edge': 68, 'node': 55}
+TRAIN conditioned 29 {'step': 1, 'bce': 0.5549589395523071, 'elapsed_s': 0.01}
+TRAIN conditioned 29 {'step': 426, 'bce': 0.061602428555488586, 'elapsed_s': 1.85}
+TRAIN conditioned 29 {'step': 850, 'bce': 0.02619999460875988, 'elapsed_s': 3.88}
+SCORE conditioned 29 dev_L2 {'n': 80, 'full': 52, 'edge': 77, 'node': 53}
+SCORE conditioned 29 dev_L3 {'n': 80, 'full': 54, 'edge': 67, 'node': 60}
+TRAIN static 29 {'step': 1, 'bce': 0.5550406575202942, 'elapsed_s': 0.0}
+TRAIN static 29 {'step': 426, 'bce': 0.09055977314710617, 'elapsed_s': 1.19}
+TRAIN static 29 {'step': 850, 'bce': 0.06343095749616623, 'elapsed_s': 2.36}
+SCORE static 29 dev_L2 {'n': 80, 'full': 47, 'edge': 77, 'node': 48}
+SCORE static 29 dev_L3 {'n': 80, 'full': 48, 'edge': 67, 'node': 54}
+TRAIN conditioned 43 {'step': 1, 'bce': 0.7051246166229248, 'elapsed_s': 0.0}
+TRAIN conditioned 43 {'step': 426, 'bce': 0.25306129455566406, 'elapsed_s': 1.64}
+TRAIN conditioned 43 {'step': 850, 'bce': 0.050663381814956665, 'elapsed_s': 3.18}
+SCORE conditioned 43 dev_L2 {'n': 80, 'full': 45, 'edge': 75, 'node': 48}
+SCORE conditioned 43 dev_L3 {'n': 80, 'full': 54, 'edge': 68, 'node': 60}
+TRAIN static 43 {'step': 1, 'bce': 0.7066091299057007, 'elapsed_s': 0.0}
+TRAIN static 43 {'step': 426, 'bce': 0.3007718622684479, 'elapsed_s': 1.21}
+TRAIN static 43 {'step': 850, 'bce': 0.0674128606915474, 'elapsed_s': 2.41}
+SCORE static 43 dev_L2 {'n': 80, 'full': 45, 'edge': 75, 'node': 47}
+SCORE static 43 dev_L3 {'n': 80, 'full': 50, 'edge': 68, 'node': 56}
+DONE

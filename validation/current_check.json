@@ -1,0 +1,14 @@
+{
+  "name": "structural",
+  "exit_code": 0,
+  "seconds": 9.62,
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_structural.py"
+  ]
+}

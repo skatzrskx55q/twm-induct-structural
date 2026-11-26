@@ -1,0 +1,40 @@
+{
+  "release": "0.1.0-research",
+  "id": "induct-structural",
+  "original_archive": "TWM_INDUCT_STRUCTURAL_INDUCTION_2026-11-04.zip",
+  "original_archive_sha256": "8032d0cf4aeedc1aef2ed2550f896278fa0ef60f841cc909f416eb40ddaee69a",
+  "native_directory": "research/TWM_INDUCT_STRUCTURAL_INDUCTION_2026-11-04",
+  "commands": {
+    "check": [
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_structural.py"
+    ],
+    "demo": [
+      "code/structural_rollout.py",
+      "--seeds",
+      "17,29,43",
+      "--modes",
+      "conditioned,static,ablate,E36,random"
+    ]
+  },
+  "current_check": {
+    "name": "structural",
+    "exit_code": 0,
+    "seconds": 9.62,
+    "command": [
+      "python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_structural.py"
+    ]
+  },
+  "historical_status": "Positive ablation; weaker than E36",
+  "source_licenses": []
+}

@@ -1,0 +1,9 @@
+{
+ "stage":"TWM INDUCT structural conditional-partition pilot", "date":"2026-11-04",
+ "official_version_assigned":false, "accepted_neural_baseline":false,
+ "main_training_completed":true,"number_of_new_checkpoints":6,"seeds":[17,29,43],
+ "test_sealed_accessed":false,"evaluated_open_splits":["dev_L2","dev_L3"],
+ "posthoc_changes":["H16 evaluator script added after H1", "Random untrained conditional partition control added after main dev evaluations", "Delivery-only filtration of reference data to train/dev splits"],
+ "primary_acceptance_met":false,"historical_checkpoints_modified":false,
+ "important_limitation":"Node dynamics only structurally replaced; frozen neural edge E36, hybrid generic conditional probability aggregation. Comparisons to E36 not equal total compute."
+}
